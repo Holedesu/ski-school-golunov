@@ -5,28 +5,33 @@
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="../ski-school-golunov/css/style.css">
-  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <title>Ski School</title>
 </head>
 <body>
 
   <header class="header">
     <div class="wrapper">
-      <a href="#">Начать учиться</a>
-      <img src="./images/logo.svg" alt="SKIING SCHOOL" class="logo">
+      <div class="btn">
+        <a href="#" class="btn-text">Начать учиться</a>
+      </div>
+      <img src="./images/logo.svg" alt="SKIING SCHOOL Logo" class="logo">
       <p class="phone-number">+7 800 800-00-00</p>
     </div>
   </header>
 
   <main>
-    <div class="wrapper">
-      <div class="intro">
+    <section class="intro">
+      <div class="wrapper-intro">
         <h1 class="intro-main-text">Обучение горным лыжам в Санкт-Петербурге</h1>
         <p class="intro-description">Учим на склонах Игоры,
           Охта-парка и на базе собственной<br> тренировочной базы в центре города с применением<br> уникального тренажера,
           имитирующего склон</p>
       </div>
-      <div class="advantages">
+    </section>
+    <section class="advantages">
+      <div class="wrapper-advantages">
         <h2 class="advantage-main-text">Учиться с нами увлекательно и эффективно</h2>
         <div class="grid-advantage">
 
@@ -85,29 +90,29 @@
           </div>
         </div>
       </div>
-      <div class="satisfied-customers">
-        <h2 class="slogan">гоу! покорять склоны вместе</h2>
-        <button class="btn">Начать учиться</button>
-        <div class="clients-photo">
-          <img src="" alt="Client Image" class="clients-img">
-          <img src="" alt="Client Image" class="clients-img">
-          <img src="" alt="Client Image" class="clients-img">
-          <img src="" alt="Client Image" class="clients-img">
-        </div>
+    </section>
+    <section class="satisfied-customers">
+      <h2 class="slogan">гоу! покорять склоны вместе</h2>
+      <button class="btn__">Начать учиться</button>
+      <div class="clients-photo">
+        <img src="" alt="Client Image" class="clients-img">
+        <img src="" alt="Client Image" class="clients-img">
+        <img src="" alt="Client Image" class="clients-img">
+        <img src="" alt="Client Image" class="clients-img">
       </div>
-    </div>
+    </section>
   </main>
 
   <footer class="footer">
-    <div class="wrapper">
+    <div class="wrapper-footer">
       <div class="social-footer">
         <p class="footer-text"></p>
         <div class="social">
-          <ul>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
+          <ul class="social-img">
+            <li class="social-item"><a href="#"></a></li>
+            <li class="social-item"><a href="#"></a></li>
+            <li class="social-item"><a href="#"></a></li>
+            <li class="social-item"><a href="#"></a></li>
           </ul>
         </div>
       </div>
