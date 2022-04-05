@@ -1,0 +1,18 @@
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 3px;
+  border-style: solid;
+  border-radius: 1px;
+}
+
+.table-text {
+  font-weight: bold;
+}
+
+.week-day {
+  text-transform: uppercase;
+}
