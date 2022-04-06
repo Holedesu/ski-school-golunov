@@ -1,0 +1,54 @@
+body {
+  background-color: #b3d4fc;
+  display: flex;
+  justify-content: center;
+  font-family: "Times New Roman", sans-serif;
+}
+
+.intro {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-style: solid;
+  border-collapse: collapse;
+  border-color: darkblue;
+  border-radius: 12px;
+}
+
+.intro-title {
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.img {
+  width: 200px;
+}
+
+.intro-img-text {
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.intro-name {
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: cadetblue;
+}
+
+.intro-status.intro-facts {
+  font-size: 18px;
+}
+
+.intro-bold {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.intro-list {
+  list-style-type: circle;
+}
+
+
