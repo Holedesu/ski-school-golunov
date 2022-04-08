@@ -40,7 +40,8 @@
 
 /* Settings */
   body {
-    font-family: "Oswald", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    color: #060D10;
   }
 /* Header */
 
@@ -117,7 +118,7 @@ div.btn {
 }
 
 .intro-main-text {
-  font-style: normal;
+  font-family: "Oswald", sans-serif;
   font-weight: 500;
   font-size: 60px;
   line-height: 89px;
@@ -129,7 +130,6 @@ div.btn {
 
 .intro-description {
   font-family: 'Montserrat', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 32px;
   line-height: 39px;
@@ -141,8 +141,31 @@ div.btn {
 /* Advantages */
 
 .advantages {
-  font-family: "Montserrat", sans-serif;
+  color: #060D10;
   background: rgba(102, 209, 255, .1);
+}
+
+.advantage-main-text {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 80px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.adv-item-title {
+  font-family: "Oswald", sans-serif;
+  font-size: 32px;
+  line-height: 167%;
+  text-transform: uppercase;
+}
+
+.adv-item-text {
+  font-size: 26px;
+  line-height: 36px;
+  mix-blend-mode: normal;
+  opacity: 0.8;
 }
 
 /* Slogan */
@@ -156,11 +179,49 @@ div.btn {
   height: 1003px;
 }
 
+.slogan_text {
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #060D10;
+}
+
+.btn {
+  height: 86px;
+  width: 505px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  background: none;
+  border: 3px solid #060D10;
+  border-radius: 4px;
+
+}
+
 /* Main end */
 
 /* Footer */
   .footer{
+    height: 111px;
     background: #060D10;
+    color: #FFF;
   }
+
+  .footer-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 33px;
+  }
+
+  .copyright {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
 /* Footer end */
 
