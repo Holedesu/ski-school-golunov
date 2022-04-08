@@ -1,24 +1,47 @@
 /* Fonts */
 
-/* oswald-regular - latin */
+/* montserrat-500 - latin_cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+  url('../fonts/montserrat-v23-latin_cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('../fonts/montserrat-v23-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-regular - latin_cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+  url('../fonts/montserrat-v23-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('../fonts/montserrat-v23-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* oswald-regular - latin_cyrillic */
 @font-face {
   font-family: 'Oswald';
   font-style: normal;
   font-weight: 400;
   src: local(''),
-  url('../fonts/oswald-v47-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-  url('../fonts/oswald-v47-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  url('../fonts/oswald-v47-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('../fonts/oswald-v47-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* oswald-500 - latin */
+/* oswald-500 - latin_cyrillic */
 @font-face {
   font-family: 'Oswald';
   font-style: normal;
   font-weight: 500;
   src: local(''),
-  url('../fonts/oswald-v47-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-  url('../fonts/oswald-v47-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  url('../fonts/oswald-v47-latin_cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('../fonts/oswald-v47-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* Settings */
+  body {
+    font-family: "Oswald", sans-serif;
+  }
 /* Header */
 
 .header {
@@ -36,7 +59,7 @@
   align-items: center;
 }
 
-.btn {
+div.btn {
   height: 45px;
   width: 245px;
   border: 2px solid #FFFFFF;
@@ -49,7 +72,7 @@
 }
 
 .btn-text {
-  font-family: Montserrat, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -60,7 +83,7 @@
 }
 
 .phone-number {
-  font-family: Montserrat, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 28px;
@@ -94,7 +117,6 @@
 }
 
 .intro-main-text {
-  font-family: Oswald, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
@@ -116,17 +138,29 @@
   text-shadow: 1px 1px 2px #060D10;
 }
 
-/* Intro end*/
-
 /* Advantages */
 
+.advantages {
+  font-family: "Montserrat", sans-serif;
+  background: rgba(102, 209, 255, .1);
+}
 
+/* Slogan */
 
-/* Advantages */
+.slogan {
+  background:
+    linear-gradient(208.35deg,
+    rgba(102, 209, 255, .1) 43.85%,
+    rgba(196, 196, 196, 0) 43.86%);
+
+  height: 1003px;
+}
 
 /* Main end */
 
 /* Footer */
-
+  .footer{
+    background: #060D10;
+  }
 /* Footer end */
 
