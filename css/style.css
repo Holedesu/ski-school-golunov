@@ -39,10 +39,22 @@
 }
 
 /* Settings */
-  body {
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
     font-family: "Montserrat", sans-serif;
     color: #060D10;
+
   }
+
+img {
+  display: block;
+  max-width: 100%;
+}
 
 .container {
   width: 1278px;
@@ -134,12 +146,7 @@
 .advantages {
   color: #060D10;
   background: rgba(102, 209, 255, .1);
-  padding: 170px 0;
-}
-
-.adv-item {
-  width: 406px;
-
+  padding: 170px 0 100px;
 }
 
 .advantage-main-text {
@@ -150,6 +157,22 @@
   text-align: center;
   text-transform: uppercase;
 
+}
+
+.flex-advantage {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.adv-item {
+  margin-bottom: 70px;
+  width: 33.33%;
+
+}
+
+.adv-item:nth-child(An+3) {
+  margin-left: 0;
 }
 
 .adv-item-title {
@@ -173,8 +196,12 @@
     linear-gradient(208deg,
     rgba(102, 209, 255, .1) 43.85%,
     rgba(196, 196, 196, 0) 43.86%);
+  padding: 0 0 180px;
+}
 
-  padding: 170px 0 180px;
+.underline {
+  border-top: 1px solid rgba(6, 13, 16, .5);
+  padding-top: 170px;
 }
 
 .slogan_text {
@@ -218,6 +245,28 @@
     color: #FFF;
     padding: 35px 0 36px;
   }
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-social {
+  display: flex;
+}
+
+.social-img {
+  display: flex;
+}
+
+.social-item{
+  margin-left: 20px;
+}
+
+.social-item:first-child {
+  margin-left: 50px;
+}
 
   .footer-text {
     font-weight: 500;
